@@ -1,4 +1,4 @@
-import pool from "../db.js"
+import pool from "../../db/schema/config.js"
 
 export const getJoyas = async (req, res) => {
   try {

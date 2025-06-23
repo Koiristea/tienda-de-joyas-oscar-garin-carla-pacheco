@@ -4,6 +4,7 @@ import logger from "../middlewares/logger.js"
 
 const router = express.Router()
 
+// router.get("/", logger, getJoyas)
 router.get("/", logger, getJoyas)
 router.get("/filtros", logger, getJoyasFiltradas)
 
